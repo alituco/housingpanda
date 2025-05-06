@@ -23,3 +23,7 @@ npx prisma generate
 
 # 5) start the API 
 npm run dev
+
+```
+
+2. Frontend
