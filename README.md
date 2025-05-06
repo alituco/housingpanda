@@ -29,3 +29,21 @@ npm run dev
 2. Frontend
 
 This is a basic NextJS/Typescript frontend to serve the backend. Please make sure that the server is running first!
+
+```bash
+
+# 1) move into the frontend folder
+cd frontend
+
+# 2) create .env.local with the (CORRECT and updated) URL of where you are running the backend
+cat > .env.local <<'EOF'
+NEXT_PUBLIC_API_BASE=http://localhost:4000
+EOF
+
+# 3) install dependencies
+npm install       
+
+# 4) run the dev server
+npm run dev        
+
+```
