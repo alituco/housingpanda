@@ -10,7 +10,7 @@ cd backend
 
 # 2) create a .env file with your Postgres URL
 cat > .env <<'EOF'
-DATABASE_URL="postgres://u5gk48ni817h75:pae80be390de3357830ddd2e7cf0d1d8b3e39e5a563958056070c54fa43dd1ccd@cbec45869p4jbu.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d6dvc29fhd8upr"
+DATABASE_URL=""
 PORT=4000
 EOF
 
