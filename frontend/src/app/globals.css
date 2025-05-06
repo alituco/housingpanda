@@ -1,7 +1,18 @@
-/* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.input { @apply block w-full rounded-md border px-3 py-2 focus:border-blue-500; }
-.textarea { @apply block w-full rounded-md border px-3 py-2 h-28 resize-none focus:border-blue-500; }
+
+.form-field {
+  @apply block w-full rounded-lg border border-gray-300 bg-white px-3 py-2
+         placeholder-gray-400 shadow-sm transition focus:border-blue-500
+         focus:ring-2 focus:ring-blue-400/50 disabled:opacity-50;
+}
+
+.input   { @apply form-field; }
+.textarea { @apply form-field h-28 resize-none; }
+
+.input-error,
+.textarea-error {
+  @apply border-red-500 focus:border-red-500 focus:ring-red-400/50;
+}
