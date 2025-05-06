@@ -27,3 +27,5 @@ npm run dev
 ```
 
 2. Frontend
+
+This is a basic NextJS/Typescript frontend to serve the backend. Please make sure that the server is running first!
